@@ -184,3 +184,65 @@ footer{
     font-weight: bold;
   }    
 }
+@media only screen and (max-width: 768px){
+  nav img{
+    width: 190px;
+  }
+  h1{
+    font-size: 74px;
+  }
+  p{
+    font-size: 12px;
+    margin-right: 70px;
+  }
+  .half-width{
+    float: none;
+    width: 100%;
+  }
+  #banner img{
+    width: 90%;
+    margin-left: 0px;
+    margin-top: 60px;
+  }
+  .section{
+    height: 980px;
+  }
+  #woman-jacket{
+    margin-top: 80px;
+  }
+  .section-title{
+    text-align: center;
+  }
+  .set-flex-direction{
+    flex-direction: column;
+    align-items: center;
+  }
+  #man-jacket{
+    margin-top: 820px;
+  }
+  #about-us{
+    margin-top: 820px;
+  }
+  .single-card-2{
+    width: 400px;
+    height: 220px;
+  }
+  .set-display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .extra-flex-style{
+    flex-direction: column-reverse;
+  }
+  #bottom-img{
+    margin-left: 0px;
+  }
+  .extra-margin-mediaQ{
+    margin-top: 70px;
+  }
+  footer{
+    font-size: 11px;
+    font-weight: bold;
+  }    
+}
