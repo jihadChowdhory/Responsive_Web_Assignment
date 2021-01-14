@@ -61,6 +61,9 @@ header{
   border: none;
   font-weight: bold;
 }
+.my-btn:hover{
+  color: white;
+}
 .top-margin{
   margin-top: 50px;
 }
@@ -122,68 +125,6 @@ footer{
   text-align: center;
   margin-top: 100px;
 }
-@media only screen and (max-width: 480px){
-  nav img{
-    width: 190px;
-  }
-  h1{
-    font-size: 74px;
-  }
-  p{
-    font-size: 12px;
-    margin-right: 70px;
-  }
-  .half-width{
-    float: none;
-    width: 100%;
-  }
-  #banner img{
-    width: 90%;
-    margin-left: 0px;
-    margin-top: 60px;
-  }
-  .section{
-    height: 980px;
-  }
-  #woman-jacket{
-    margin-top: 80px;
-  }
-  .section-title{
-    text-align: center;
-  }
-  .set-flex-direction{
-    flex-direction: column;
-    align-items: center;
-  }
-  #man-jacket{
-    margin-top: 820px;
-  }
-  #about-us{
-    margin-top: 820px;
-  }
-  .single-card-2{
-    width: 400px;
-    height: 220px;
-  }
-  .set-display{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .extra-flex-style{
-    flex-direction: column-reverse;
-  }
-  #bottom-img{
-    margin-left: 0px;
-  }
-  .extra-margin-mediaQ{
-    margin-top: 70px;
-  }
-  footer{
-    font-size: 11px;
-    font-weight: bold;
-  }    
-}
 @media only screen and (max-width: 768px){
   nav img{
     width: 190px;
@@ -224,7 +165,7 @@ footer{
     margin-top: 820px;
   }
   .single-card-2{
-    width: 400px;
+    width: 391px;
     height: 220px;
   }
   .set-display{
@@ -242,7 +183,69 @@ footer{
     margin-top: 70px;
   }
   footer{
-    font-size: 11px;
+    font-size: 8px;
+    font-weight: bold;
+  }    
+}
+@media only screen and (max-width: 480px){
+  nav img{
+    width: 190px;
+  }
+  h1{
+    font-size: 74px;
+  }
+  p{
+    font-size: 12px;
+    margin-right: 70px;
+  }
+  .half-width{
+    float: none;
+    width: 100%;
+  }
+  #banner img{
+    width: 90%;
+    margin-left: 0px;
+    margin-top: 60px;
+  }
+  .section{
+    height: 980px;
+  }
+  #woman-jacket{
+    margin-top: 80px;
+  }
+  .section-title{
+    text-align: center;
+  }
+  .set-flex-direction{
+    flex-direction: column;
+    align-items: center;
+  }
+  #man-jacket{
+    margin-top: 820px;
+  }
+  #about-us{
+    margin-top: 820px;
+  }
+  .single-card-2{
+    width: 391px;
+    height: 220px;
+  }
+  .set-display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .extra-flex-style{
+    flex-direction: column-reverse;
+  }
+  #bottom-img{
+    margin-left: 0px;
+  }
+  .extra-margin-mediaQ{
+    margin-top: 70px;
+  }
+  footer{
+    font-size: 8px;
     font-weight: bold;
   }    
 }
