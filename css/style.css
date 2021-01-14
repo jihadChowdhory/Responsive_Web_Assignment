@@ -1,5 +1,9 @@
-h1, h2, h3, h4, h5, h6{
+h1, h2{
   font-family: 'Bebas Neue', cursive;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 p{
   font-family: 'Roboto', sans-serif;
@@ -84,4 +88,28 @@ header{
 }
 .card-foter a{
   float: right;
+}
+#about-us img{
+  width: 100%;
+}
+.single-card-2{
+  width: 500px;
+  height: 140px;
+  border-radius: 10px;
+}
+.img-div{
+  width: 100px;
+  height: 100px;
+}
+.details-div{
+  width: 70%;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.floating-div{
+  float: left;
+}
+#bottom-img{
+  width: 100px;
+  margin-left: 105px;
 }
